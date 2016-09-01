@@ -2,13 +2,15 @@
 //  ViewController.m
 //  AnimationLoadingImage
 //
-//  Created by Almas on 16/9/1.
+//  Created by Ali on 16/9/1.
 //  Copyright © 2016年 Ali. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "UIImageView+AnimationLoading.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imgHome;
 
 @end
 
@@ -16,12 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)btnReloadclick:(id)sender {
+        [_imgHome setImageWithAnimationOfUrl:@"http://b.zol-img.com.cn/sjbizhi/images/9/320x510/1449023271209.jpg" placeHolder:nil];
+    
 }
+
+
 
 @end

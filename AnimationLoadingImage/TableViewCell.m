@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TableViewCell.m
 //  AnimationLoadingImage
 //
 //  Created by Ali on 16/9/1.
 //  Copyright © 2016年 Ali. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "TableViewCell.h"
 
-@interface ViewController : UIViewController
-
+@implementation TableViewCell
 
 @end
-

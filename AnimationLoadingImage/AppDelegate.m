@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  AnimationLoadingImage
 //
-//  Created by Almas on 16/9/1.
+//  Created by Ali on 16/9/1.
 //  Copyright © 2016年 Ali. All rights reserved.
 //
 

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TableViewCell.h
 //  AnimationLoadingImage
 //
 //  Created by Ali on 16/9/1.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface TableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *imgIcon;
 
 @end
-
