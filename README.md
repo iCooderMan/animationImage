@@ -10,5 +10,10 @@
 
 
 ```
-[cell.imgIcon setImageWithAnimationOfUrl:picsArray[indexPath.row] placeHolder:[UIImage imageNamed:@"1.jpg"]];
+/**
+ *  下载图片 并且动画显示
+ *  @param strUrl 图片地址(字符串哦)
+ *  @param pImage 占位图片
+ */
+-(void)setImageWithAnimationOfUrl:(NSString *)strUrl placeHolder:(UIImage *)pImage;
 ```
